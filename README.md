@@ -20,7 +20,7 @@ which is enough for a full driver board without making too many sacrifices.
  - 3 always-on fans
 
  - 2 separate power inputs (with either 12V, 24V or 48V; controlled with jumpers)
- - Input can either be up to 12V@20A, 24V@10A or 48V@5A (bare in mind that not all connected devices (drivers, fans, hotend, heatbed) can support all voltage levels, so be careful not to fry any components. But all soldered components can deal with all voltage levels)
+ - Input can either be up to 12V@15A, 24V@15A or 48V@15A (bare in mind that not all connected devices (drivers, fans, hotend, heatbed) can support all voltage levels, so be careful not to fry any components. But all soldered components can deal with all voltage levels)
 
 See [Electrical](https://github.com/Dschorim/alpacESP/blob/main/Electrical.md) for more details.
 
@@ -34,4 +34,4 @@ since those are rarely used and there were no pins left.
 
 
 ## Credits
-Thanks to [markniu](https://github.com/markniu) for creating the PandaZHU project, which gives me inspiration and ideas for this project
+Thanks to [markniu](https://github.com/markniu) for creating the PandaZHU project, which gives me inspiration and ideas for this project.
