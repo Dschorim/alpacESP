@@ -22,10 +22,7 @@ which is enough for a full driver board without making too many sacrifices.
  - 2 separate power inputs (with either 12V, 24V or 48V; controlled with jumpers)
  - Input can either be up to 12V@20A, 24V@10A or 48V@5A (bare in mind that not all connected devices (drivers, fans, hotend, heatbed) can support all voltage levels, so be careful not to fry any components. But all soldered components can deal with all voltage levels)
 
-See [Electrical](https://github.com/Dschorim/alpacESP/blob/main/Electrical.md) for more details
-
-## Jumpers
- - set fan voltage to 5V (internal buck converter), 12V, 24V or 48V (cross-shaped jumper to make sure only one voltage is connected)
+See [Electrical](https://github.com/Dschorim/alpacESP/blob/main/Electrical.md) for more details.
 
 ## Design Decisions
 Using the drivers in SPI mode reduces the number of required pins from 17 in UART mode (8 drivers with 2 signal wires each + 1 common enable signal)
