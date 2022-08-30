@@ -5,7 +5,7 @@ Disclaimer: This is a WIP-repository and is not considered stable, but feel free
 ## What is this and why is it here?
 The idea behind this project is to create a fully functional 3d printer driver board based on the ESP32-S3.
 There are other similar projects like PandaZHU (https://github.com/markniu/PandaZHU), but that uses an additional GPIO expander with closed-source firmware.
-Since the relatively new ESP32-S3 comes with more GPIO pins (34 if you use the ESP32-S3, ESP32-S3FN8 or ESP32-S3R2, so models without octal-SPI PSRAM),
+Since the relatively new ESP32-S3 comes with more GPIO pins (33 if you use the ESP32-S3, ESP32-S3FN8 or ESP32-S3R2, so models without octal-SPI PSRAM),
 which is enough for a full driver board without making too many sacrifices.
 
 ## Features
@@ -19,7 +19,6 @@ which is enough for a full driver board without making too many sacrifices.
  - 3 PWM fans
  - 3 always-on fans
 
- - 2 separate power inputs (with either 12V, 24V or 48V; controlled with jumpers)
  - Input can either be up to 12V@15A, 24V@15A or 48V@15A (bare in mind that not all connected devices (drivers, fans, hotend, heatbed) can support all voltage levels, so be careful not to fry any components. But all soldered components can deal with all voltage levels)
 
 See [Electrical](https://github.com/Dschorim/alpacESP/blob/main/Electrical.md) for more details.
@@ -32,6 +31,7 @@ I decided to sacrifice the onboard SD card, since the ESP32-S3 natively supports
 Support for external UART connections (for other displays for example) and support for the temperature/humidity sensors like the DTH11 was dropped as well
 since those are rarely used and there were no pins left.
 
+Since GPIO0 is used for reset/boot purposes, I had to sacrifice the beeper on the external display.
 
 ## Credits
 Thanks to [markniu](https://github.com/markniu) for creating the PandaZHU project, which gives me inspiration and ideas for this project.
