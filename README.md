@@ -1,5 +1,8 @@
 # alpacESP
 
+This project is stalled since marlin doesn't support direct drive via SPI and Klipper doesn't support the ESP32 in the first place.
+So unless there is a new ESP32 with sufficient pins or Klipper starts supporting the ESP32, this project is dead.
+
 Disclaimer: This is a WIP-repository and is not considered stable, but feel free to comment your ideas/concerns/whatever in the issues tab.
 
 ## What is this and why is it here?

@@ -22,8 +22,7 @@ All 6 fans come with separate jumpers for FAN_IN or 5V (the board has an interna
 Since the heatbed can exceed the 5A rating of the jumpers, there is a separate heatbed input, which has to be wired up manually in case a heated bed is used.
 
 ## Hotend Power
-To my knowledge the highest power hotend is the SuperVolcano from E3D, which draws 80W@12V, resulting in a max current of almost 7A. Thus both additional heater inputs
-come with a single separate power input.
+To my knowledge the highest power hotend is the SuperVolcano from E3D, which draws 80W@12V, resulting in a max current of almost 7A. Thus both additional heater inputs come with a single separate power input.
 
 ## Driver Power
 Each driver has a maximum rating of 3A due to its socket. Thus, each individual driver has a jumper to select between DRI_IN and PWR_IN.

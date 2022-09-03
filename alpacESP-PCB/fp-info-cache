@@ -1,4 +1,25 @@
-26349708656601
+34659131513163
+kicad-parts
+A2501WV-2P
+
+
+0
+2
+2
+kicad-parts
+A2501WV-3P
+
+
+0
+3
+3
+kicad-parts
+A2501WV-4P
+
+
+0
+4
+4
 kicad-parts
 Crystal_SMD_3225-4Pin_3.2x2.5mm
 SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
@@ -34,6 +55,20 @@ GCT_USB4110-GF-A_REVB
 0
 16
 16
+kicad-parts
+HX25003-4A
+
+
+0
+4
+4
+kicad-parts
+KF129-5.08-2P
+
+
+0
+2
+2
 kicad-parts
 LED_IR12-21C_TR8
 
